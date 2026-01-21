@@ -10,11 +10,9 @@ Machine Learning Algorithm Used: Random Forest Regressor
 
 Model Persistence Method Used: Joblib
 
-Live URL of Hosted Application: [Your Deployed App URL Here]
-Example: https://your-app-name.streamlit.app
+Live URL of Hosted Application: https://housepricepred-blqdve4g8iqf7mmv72ltqk.streamlit.app/
 
-GitHub Repository Link: [Your GitHub Repository URL Here]
-Example: https://github.com/yourusername/HousePrice_Project_yourName_matricNo
+GitHub Repository Link: https://github.com/victoremeka/house_price_pred
 
 ==========================================
 PROJECT DETAILS
