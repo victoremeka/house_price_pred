@@ -1,0 +1,157 @@
+╔════════════════════════════════════════════════════════════════╗
+║     HOUSE PRICE PREDICTION SYSTEM - QUICK START GUIDE         ║
+╚════════════════════════════════════════════════════════════════╝
+
+📁 PROJECT CREATED SUCCESSFULLY!
+
+Location: /home/spaceblob/Documents/Uni/Code/Python/AI/house_price_pred/
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 1: Train the Model                                       │
+└────────────────────────────────────────────────────────────────┘
+
+1. Open the Jupyter notebook:
+   
+   cd /home/spaceblob/Documents/Uni/Code/Python/AI/house_price_pred
+   jupyter notebook model/model_building.ipynb
+
+2. Run ALL cells in the notebook (Cell → Run All)
+
+3. This will generate three files in the model/ directory:
+   ✓ house_price_model.pkl (the trained model)
+   ✓ feature_scaler.pkl (for scaling features)
+   ✓ neighborhood_encoder.pkl (for encoding neighborhoods)
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 2: Install Dependencies                                  │
+└────────────────────────────────────────────────────────────────┘
+
+# Create virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate
+
+# Install all required packages
+pip install -r requirements.txt
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 3: Run the Web Application Locally                       │
+└────────────────────────────────────────────────────────────────┘
+
+streamlit run app.py
+
+The app will open at: http://localhost:8501
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 4: Test the Application                                  │
+└────────────────────────────────────────────────────────────────┘
+
+Try these sample inputs:
+- Overall Quality: 7
+- Living Area: 2000 sq ft
+- Basement Area: 1000 sq ft
+- Garage Capacity: 2 cars
+- Year Built: 2005
+- Neighborhood: NAmes (or any available option)
+
+Click "Predict House Price" and verify the prediction appears.
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 5: Deploy to Streamlit Cloud (FREE)                     │
+└────────────────────────────────────────────────────────────────┘
+
+1. Initialize Git and push to GitHub:
+   
+   git init
+   git add .
+   git commit -m "Initial commit - House Price Prediction System"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+   git push -u origin main
+
+2. Deploy to Streamlit Cloud:
+   - Visit: https://share.streamlit.io
+   - Sign in with GitHub
+   - Click "New app"
+   - Select your repository
+   - Set main file: app.py
+   - Click "Deploy"
+
+3. Your app will be live at: https://YOUR_APP_NAME.streamlit.app
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 6: Complete Submission File                              │
+└────────────────────────────────────────────────────────────────┘
+
+Edit: HousePrice_hosted_webGUI_link.txt
+
+Fill in:
+- Your Name
+- Matric Number
+- Live URL of deployed app
+- GitHub repository link
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 7: Upload to Scorac                                      │
+└────────────────────────────────────────────────────────────────┘
+
+Upload entire project folder with structure:
+HousePrice_Project_yourName_matricNo/
+├── app.py
+├── requirements.txt
+├── HousePrice_hosted_webGUI_link.txt
+├── README.md
+└── model/
+    ├── model_building.ipynb
+    ├── house_price_model.pkl
+    ├── feature_scaler.pkl
+    └── neighborhood_encoder.pkl
+
+⏰ DEADLINE: January 22, 2026, 11:59 PM
+
+╔════════════════════════════════════════════════════════════════╗
+║                      PROJECT HIGHLIGHTS                        ║
+╚════════════════════════════════════════════════════════════════╝
+
+✅ PART A - Model Development
+   • Algorithm: Random Forest Regressor
+   • Features: 6 selected features
+   • Metrics: MAE, MSE, RMSE, R²
+   • Persistence: Joblib
+
+✅ PART B - Web GUI Application
+   • Framework: Streamlit
+   • Interactive input form
+   • Real-time predictions
+   • Beautiful UI with insights
+
+✅ PART C - GitHub Ready
+   • Complete project structure
+   • Comprehensive README
+   • Proper .gitignore
+   • Requirements file
+
+✅ PART D - Deployment Ready
+   • Streamlit Cloud compatible
+   • Render.com compatible
+   • PythonAnywhere compatible
+   • Deployment instructions included
+
+╔════════════════════════════════════════════════════════════════╗
+║                      TROUBLESHOOTING                           ║
+╚════════════════════════════════════════════════════════════════╝
+
+Problem: Model files not found
+Solution: Run the Jupyter notebook first to generate .pkl files
+
+Problem: Module not found errors
+Solution: pip install -r requirements.txt
+
+Problem: Streamlit won't start
+Solution: Check if port 8501 is free, or use different port:
+         streamlit run app.py --server.port 8502
+
+For detailed help, see: README.md
+
+╔════════════════════════════════════════════════════════════════╗
+║                        GOOD LUCK! 🚀                           ║
+╚════════════════════════════════════════════════════════════════╝

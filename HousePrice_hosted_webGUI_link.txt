@@ -1,0 +1,59 @@
+==========================================
+HOUSE PRICE PREDICTION - SUBMISSION INFO
+==========================================
+
+Name: [Your Full Name Here]
+
+Matric Number: [Your Matric Number Here]
+
+Machine Learning Algorithm Used: Random Forest Regressor
+
+Model Persistence Method Used: Joblib
+
+Live URL of Hosted Application: [Your Deployed App URL Here]
+Example: https://your-app-name.streamlit.app
+
+GitHub Repository Link: [Your GitHub Repository URL Here]
+Example: https://github.com/yourusername/HousePrice_Project_yourName_matricNo
+
+==========================================
+PROJECT DETAILS
+==========================================
+
+Features Used (6 out of 9 recommended):
+1. OverallQual - Overall material and finish quality
+2. GrLivArea - Above grade living area (sq ft)
+3. TotalBsmtSF - Total square feet of basement area
+4. GarageCars - Size of garage in car capacity
+5. YearBuilt - Original construction date
+6. Neighborhood - Physical location (categorical)
+
+Model Performance Metrics:
+- Evaluation metrics: MAE, MSE, RMSE, R²
+- Train-Test Split: 80-20
+- Model saved with Joblib for reusability
+
+Web Application Stack:
+- Framework: Streamlit
+- Features: Interactive user input, real-time predictions, visual feedback
+
+==========================================
+SUBMISSION CHECKLIST
+==========================================
+
+[ ] Model training notebook completed (model_building.ipynb)
+[ ] Web application created (app.py)
+[ ] Requirements file included (requirements.txt)
+[ ] Model saved successfully (house_price_model.pkl)
+[ ] Scaler saved (feature_scaler.pkl)
+[ ] Encoder saved (neighborhood_encoder.pkl)
+[ ] Application tested locally
+[ ] Application deployed to cloud platform
+[ ] GitHub repository created with proper structure
+[ ] All files uploaded to GitHub
+[ ] This submission file filled out completely
+[ ] Project uploaded to Scorac before deadline
+
+==========================================
+Submission Deadline: January 22, 2026, 11:59 PM
+==========================================
